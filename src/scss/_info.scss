@@ -1,0 +1,90 @@
+.info__wrapper{
+    padding-top: 5rem;
+    padding-bottom: 2.125rem;
+    background: url(../images/g11951.png) no-repeat;
+    background-size: cover;
+}
+.info{
+    max-width: 1240px;
+    margin: 0 auto;
+    &__item{
+        width: 269px;
+        height: 273px;
+        text-align: center;
+        background-color: #fff;
+        padding: 3rem 1.4375rem 2.75rem 1.4375rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+        &__text{
+            padding: 10px 0;
+            width: 222px;
+           margin-top: 1.9375rem;
+           margin-bottom: 0.625rem;
+            background: url(../images/Vector.svg) no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #0082C8;
+            
+            &:hover {
+                background: url(../images/Vector-1.svg) no-repeat;
+                color: #fff;
+            }
+            span {
+                width: 150px;
+            }
+            
+    }
+}
+.info__item__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #818181;}
+
+}
+.info__item__text__bg-1{
+    background: url(../images/Vector-1-1.svg) no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    border-bottom: 0;
+
+&:hover{
+    background: url(../images/Vector-1-1-hov.svg) no-repeat;
+    background-size: cover;
+}
+}
+.info__item__text__bg-2{
+    background: url(../images/Vector-1-2.svg) no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+// &:hover{
+//     background: url(../images/Vector-1-2-hov.svg) no-repeat;
+//     background-size: cover;
+//     width: 222px;
+    
+// }
+}
+
+.info__item__text__bg-3{
+    background: url(../images/Vector-1-3.svg) no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+&:hover{
+    background: url(../images/Vector-1-3-hov.svg) no-repeat;
+    background-size: cover;
+}
+}

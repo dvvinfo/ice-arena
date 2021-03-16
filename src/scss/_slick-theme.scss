@@ -61,7 +61,6 @@ $slick-opacity-not-active: 1 !default;
         opacity: $slick-opacity-not-active;
     }
     &:before {
-        font-family: $slick-font-family;
         font-size: 20px;
         line-height: 1;
         color: $slick-arrow-color;
@@ -102,7 +101,7 @@ $slick-opacity-not-active: 1 !default;
 /* Dots */
 
 .slick-dotted.slick-slider {
-    margin-bottom: 30px;
+    
 }
 
 .slick-dots {
