@@ -43,9 +43,14 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    
-    color: #000000;
+    &::placeholder{
+        color: $blue;
+    }
+    color: $blue;
     border: none;
+    &:focus > &::placeholder{
+        color: #000;
+    }
     
 }
 .header__contacts__search__form__btn{
@@ -115,7 +120,7 @@
 .logo__block{
     position: relative;
     width: 100%;
-    background: url(../images/header.png) no-repeat;
+    background: url(../images/header.png) no-repeat center center;
     background-size: cover;
 
     &__wrapper{
@@ -169,4 +174,16 @@
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     background-color: $darkBlue !important;
+}
+.header__contacts__social-network__link svg:hover{
+    fill: #005481;
+}
+.eye svg:hover{
+    fill: #000;
+}
+.menu__link:hover {
+    background-color: $darkBlue;
+}
+.navbar-brand{
+    display: none;
 }

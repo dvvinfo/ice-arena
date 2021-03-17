@@ -14,10 +14,17 @@
 position: absolute;
 z-index: 99;
 top: 50%;
-left: 300px;
+left: 350px;
 transform: translateY(-50%);
 border: none;
-background-color: transparent;
+background: url(../images/arrow-pre.svg) no-repeat;
+background-size: contain;
+width: 41px;
+height: 71px;
+&:hover{
+    background: url(../images/slider-arrow-hov.svg) no-repeat;
+    transform: rotateY(-180deg) translateY(-50%);
+}
 }
 .slider .slick-next{
     position: absolute;
@@ -26,9 +33,17 @@ background-color: transparent;
     right: 300px;
     transform: translateY(-50%);
     border: none;
-    background-color: transparent;
+    background: url(../images/arrow-next.svg) no-repeat;
+    background-size: contain;
+    width: 41px;
+    height: 71px;
+
+    &:hover{
+        background: url(../images/slider-arrow-hov.svg) no-repeat;
+       
+    }
     }
 
-.slider__wrapper .slick-dots{
-    
-}    
+.slider__item img{
+    width: 100%;
+}
